@@ -33,7 +33,7 @@ class Reader {
             unset($this->borrowedBooks[$key]);
             $book->setAvailability(true);
         } else {
-            echo "У читателя нет такой книги. <br/>";
+            echo "У читателя нет такой книги.<br/>";
         }
     }
 }
